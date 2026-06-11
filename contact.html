@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Contact — Demander un diagnostic projet · KOMA Expertise</title>
+<meta name="description" content="Demandez un diagnostic projet KOMA Expertise. Cadrage initial, identification des zones de risque, recommandations méthodologiques avant tout engagement. Réponse sous 48 h ouvrées."/>
+<script>(function(){try{var s=JSON.parse(localStorage.getItem('koma_theme')||'{}');for(var k in s){document.documentElement.dataset[k]=s[k];}}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=DM+Sans:wght@300;400;500;600;700;800;900&family=Schibsted+Grotesk:wght@500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/koma.css">
+<link rel="stylesheet" href="assets/css/koma-pages.css">
+<link rel="stylesheet" href="assets/css/koma-human.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="nav-brand" href="index.html" aria-label="Accueil KOMA Expertise">
+      <img src="assets/img/brand/logo-koma.jpg" alt="KOMA Expertise"/>
+    </a>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="methode.html">Méthode</a>
+      <a href="plateforme.html">Plateforme</a>
+      <a href="references.html">Réalisations</a>
+      <a href="partenaires.html">Partenaires</a>
+      <a href="apropos.html">Qui sommes-nous</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="devenir-partenaire.html" class="btn btn-ghost btn-sm">Devenir partenaire</a>
+      <a href="contact.html" class="btn btn-primary btn-sm">Parler de mon projet</a>
+    </div>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ═══════ HERO ═══════ -->
+<section class="hero-page" data-screen-label="Hero Contact">
+  <div class="container">
+    <span class="eyebrow on-dark">Premier échange</span>
+    <h1>Demander un <span class="accent">diagnostic projet.</span></h1>
+    <p class="lead">Votre projet mérite mieux que l'improvisation. Après un premier échange, KOMA vous aide à comprendre où vous en êtes, quels risques vérifier et quelles étapes suivre avant d'engager votre argent — que vous soyez en début de réflexion ou déjà en chantier.</p>
+    <div class="hero-reassurance">
+      <span>Premier diagnostic gratuit</span>
+      <span>Réponse sous 48 h ouvrées</span>
+      <span>Confidentiel, sans engagement</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FORMULAIRE ═══════ -->
+<section data-screen-label="Formulaire">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Colonne formulaire -->
+      <div class="reveal">
+        <form class="form-card" data-koma-form action="#" method="post" novalidate>
+
+          <h2 style="font-size:26px;margin-bottom:8px;">Parlez-nous de votre projet.</h2>
+          <p style="font-size:14.5px;color:var(--muted);margin-bottom:24px;">Plus les informations sont précises, plus notre première analyse sera utile. Nous revenons vers vous sous 48 h ouvrées.</p>
+
+          <!-- Toggle Client / Entreprise -->
+          <div class="profile-toggle-wrap">
+            <div class="profile-toggle" role="group" aria-label="Type de profil">
+              <button type="button" class="profile-toggle-btn active" data-profile="client">Client</button>
+              <button type="button" class="profile-toggle-btn" data-profile="entreprise">Entreprise</button>
+              <span class="profile-toggle-slider"></span>
+            </div>
+          </div>
+
+          <div class="form-section-label">Vous êtes…</div>
+
+          <!-- Tuiles client -->
+          <div class="onboarding-roles" id="roles-client">
+            <label class="role-choice">
+              <input type="radio" name="demande_type" value="client" checked/>
+              <i class="ic" data-icon="home"></i>
+              <span class="role-label">Client</span>
+              <span class="role-sub">J'ai un projet immobilier</span>
+            </label>
+          </div>
+
+          <!-- Tuiles entreprise (masquées par défaut) -->
+          <div class="onboarding-roles" id="roles-entreprise" hidden>
+            <label class="role-choice">
+              <input type="radio" name="demande_type" value="amoa"/>
+              <i class="ic" data-icon="shield"></i>
+              <span class="role-label">AMOA</span>
+              <span class="role-sub">Assistance à maîtrise d'ouvrage</span>
+            </label>
+            <label class="role-choice">
+              <input type="radio" name="demande_type" value="moe"/>
+              <i class="ic" data-icon="ruler"></i>
+              <span class="role-label">MOE</span>
+              <span class="role-sub">Architecte, BET, ingénierie</span>
+            </label>
+            <label class="role-choice">
+              <input type="radio" name="demande_type" value="moex"/>
+              <i class="ic" data-icon="hard-hat"></i>
+              <span class="role-label">MOEX</span>
+              <span class="role-sub">Entreprise de travaux</span>
+            </label>
+            <label class="role-choice">
+              <input type="radio" name="demande_type" value="supply"/>
+              <i class="ic" data-icon="package"></i>
+              <span class="role-label">Supply</span>
+              <span class="role-sub">Fournisseur matériaux</span>
+            </label>
+            <label class="role-choice">
+              <input type="radio" name="demande_type" value="financier"/>
+              <i class="ic" data-icon="banknote"></i>
+              <span class="role-label">Financier</span>
+              <span class="role-sub">Banque, paiement, transfert</span>
+            </label>
+          </div>
+
+          <div class="form-section-label">Vos coordonnées</div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="f-nom">Nom complet <span class="req">*</span></label>
+              <input type="text" id="f-nom" name="nom" required autocomplete="name" placeholder="Prénom Nom"/>
+            </div>
+            <div class="form-field">
+              <label for="f-email">Email <span class="req">*</span></label>
+              <input type="email" id="f-email" name="email" required autocomplete="email" placeholder="vous@exemple.com"/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="f-tel">Téléphone / WhatsApp <span class="req">*</span></label>
+              <input type="tel" id="f-tel" name="tel" required autocomplete="tel" placeholder="+33 6 12 34 56 78"/>
+            </div>
+            <div class="form-field">
+              <label for="f-pays-res">Pays de résidence <span class="req">*</span></label>
+              <input type="text" id="f-pays-res" name="pays_residence" required placeholder="ex. France, Cameroun, Côte d'Ivoire…"/>
+            </div>
+          </div>
+
+          <!-- ── SECTION CLIENT ── -->
+          <div data-form-section="client">
+            <div class="form-section-label">Votre projet immobilier</div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-pays-projet">Pays / ville du projet <span class="req">*</span></label>
+                <input type="text" id="f-pays-projet" name="pays_projet" placeholder="ex. Cameroun — Douala, Yaoundé…"/>
+              </div>
+              <div class="form-field">
+                <label for="f-type-projet">Type de projet <span class="req">*</span></label>
+                <select id="f-type-projet" name="type_projet">
+                  <option value="">— Sélectionner —</option>
+                  <option value="construction-neuve">Construction neuve</option>
+                  <option value="renovation">Rénovation</option>
+                  <option value="reprise-chantier">Reprise de chantier</option>
+                  <option value="amenagement">Aménagement intérieur</option>
+                  <option value="gestion">Gestion post-livraison</option>
+                  <option value="diagnostic">Diagnostic / expertise</option>
+                  <option value="investissement">Projet d'investissement</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-avancement">Niveau d'avancement <span class="req">*</span></label>
+                <select id="f-avancement" name="avancement">
+                  <option value="">— Sélectionner —</option>
+                  <option value="idee">Idée / réflexion initiale</option>
+                  <option value="terrain">Terrain acquis</option>
+                  <option value="plans">Études / plans en cours</option>
+                  <option value="devis">Devis reçus, avant signature</option>
+                  <option value="encours">Chantier en cours</option>
+                  <option value="bloque">Chantier bloqué</option>
+                  <option value="livre">Bien livré, à gérer</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="f-budget">Budget indicatif</label>
+                <select id="f-budget" name="budget">
+                  <option value="">— Sélectionner (optionnel) —</option>
+                  <option value="moins-20m">Moins de 20 M FCFA</option>
+                  <option value="20-50m">20 à 50 M FCFA</option>
+                  <option value="50-100m">50 à 100 M FCFA</option>
+                  <option value="100-300m">100 à 300 M FCFA</option>
+                  <option value="plus-300m">Plus de 300 M FCFA</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row single">
+              <div class="form-field">
+                <label>Documents disponibles (plusieurs choix possibles)</label>
+                <div class="check-row">
+                  <label><input type="checkbox" name="docs" value="plans"/> Plans / esquisses</label>
+                  <label><input type="checkbox" name="docs" value="devis"/> Devis entreprises</label>
+                  <label><input type="checkbox" name="docs" value="titre"/> Titre foncier</label>
+                  <label><input type="checkbox" name="docs" value="photos"/> Photos terrain</label>
+                  <label><input type="checkbox" name="docs" value="contrats"/> Contrats signés</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-row single">
+              <div class="form-field">
+                <label for="f-msg-client">Décrivez votre projet, vos objectifs et vos préoccupations <span class="req">*</span></label>
+                <textarea id="f-msg-client" name="message_client" rows="5" placeholder="Localisation, surface, contexte familial, calendrier souhaité, sources de financement, points qui vous inquiètent…"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── SECTION AMOA ── -->
+          <div data-form-section="amoa" hidden>
+            <div class="form-section-label">Votre cabinet AMOA</div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-amoa-entreprise">Nom du cabinet / structure <span class="req">*</span></label>
+                <input type="text" id="f-amoa-entreprise" name="amoa_entreprise" placeholder="Raison sociale"/>
+              </div>
+              <div class="form-field">
+                <label for="f-amoa-pays">Pays d'opération <span class="req">*</span></label>
+                <input type="text" id="f-amoa-pays" name="amoa_pays" placeholder="Cameroun, Côte d'Ivoire…"/>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-amoa-specialite">Domaine de spécialité <span class="req">*</span></label>
+                <select id="f-amoa-specialite" name="amoa_specialite">
+                  <option value="">— Sélectionner —</option>
+                  <option>AMOA généraliste</option>
+                  <option>Études béton armé</option>
+                  <option>Chiffrage DQE / BQE</option>
+                  <option>Contrôle qualité chantier</option>
+                  <option>Suivi terrain / supervision</option>
+                  <option>Diagnostic / pathologies</option>
+                  <option>Coordination AMOA / MOE</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="f-amoa-anciennete">Années d'activité</label>
+                <select id="f-amoa-anciennete" name="amoa_anciennete">
+                  <option value="">— Sélectionner —</option>
+                  <option>Moins de 2 ans</option><option>2 à 5 ans</option><option>5 à 10 ans</option>
+                  <option>10 à 20 ans</option><option>Plus de 20 ans</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row single">
+              <div class="form-field">
+                <label for="f-amoa-references">Références notables (3 dernières missions AMOA)</label>
+                <textarea id="f-amoa-references" name="amoa_references" rows="3" placeholder="ex. R+5 Douala 2024 — contrôle qualité gros œuvre ; Villa Yaoundé 2023 — supervision finitions"></textarea>
+              </div>
+            </div>
+            <div class="form-row single">
+              <div class="form-field">
+                <label for="f-amoa-msg">Pourquoi rejoindre l'écosystème KOMA en tant qu'AMOA ? <span class="req">*</span></label>
+                <textarea id="f-amoa-msg" name="amoa_message" rows="4" placeholder="Votre approche, vos méthodes, le type de projets où vous apportez le plus de valeur…"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── SECTION MOE ── -->
+          <div data-form-section="moe" hidden>
+            <div class="form-section-label">Votre activité de maîtrise d'œuvre</div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-moe-entreprise">Nom de l'agence / cabinet <span class="req">*</span></label>
+                <input type="text" id="f-moe-entreprise" name="moe_entreprise" placeholder="Raison sociale"/>
+              </div>
+              <div class="form-field">
+                <label for="f-moe-metier">Métier principal <span class="req">*</span></label>
+                <select id="f-moe-metier" name="moe_metier">
+                  <option value="">— Sélectionner —</option>
+                  <option>Architecte DPLG / HMONP</option>
+                  <option>Architecte d'intérieur</option>
+                  <option>Bureau d'études structure</option>
+                  <option>Bureau d'études fluides (élec, plomberie)</option>
+                  <option>Bureau d'études VRD</option>
+                  <option>Bureau d'études thermique</option>
+                  <option>Économiste de la construction</option>
+                  <option>Géotechnicien</option>
+                  <option>OPC (Ordonnancement Pilotage Coordination)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-moe-pays">Pays d'opération <span class="req">*</span></label>
+                <input type="text" id="f-moe-pays" name="moe_pays" placeholder="Cameroun, Sénégal, France…"/>
+              </div>
+              <div class="form-field">
+                <label for="f-moe-assurance">Assurance professionnelle</label>
+                <select id="f-moe-assurance" name="moe_assurance">
+                  <option value="">— Sélectionner —</option>
+                  <option>Décennale à jour</option>
+                  <option>RC pro à jour</option>
+                  <option>Décennale + RC pro à jour</option>
+                  <option>En cours de souscription</option>
+                  <option>Non applicable / pays</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-moe-portfolio">Site web / portfolio</label>
+                <input type="url" id="f-moe-portfolio" name="moe_portfolio" placeholder="https://..."/>
+              </div>
+              <div class="form-field">
+                <label for="f-moe-realisations">Nombre de projets livrés</label>
+                <select id="f-moe-realisations" name="moe_realisations">
+                  <option value="">— Sélectionner —</option>
+                  <option>Moins de 5</option><option>5 à 15</option><option>15 à 50</option>
+                  <option>50 à 100</option><option>Plus de 100</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row single">
+              <div class="form-field">
+                <label for="f-moe-msg">Présentez votre approche et le type de projets que vous souhaitez piloter avec KOMA <span class="req">*</span></label>
+                <textarea id="f-moe-msg" name="moe_message" rows="4" placeholder="Votre style architectural, vos terrains de prédilection (résidentiel, hôtellerie…), votre vision de la qualité…"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── SECTION MOEX ── -->
+          <div data-form-section="moex" hidden>
+            <div class="form-section-label">Votre entreprise de travaux</div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-moex-entreprise">Nom de l'entreprise <span class="req">*</span></label>
+                <input type="text" id="f-moex-entreprise" name="moex_entreprise" placeholder="Raison sociale"/>
+              </div>
+              <div class="form-field">
+                <label for="f-moex-forme">Forme juridique</label>
+                <select id="f-moex-forme" name="moex_forme">
+                  <option value="">— Sélectionner —</option>
+                  <option>SARL / SARLU</option><option>SA / SAS</option>
+                  <option>Entreprise individuelle</option><option>GIE</option><option>Autre</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-moex-metier">Spécialité principale <span class="req">*</span></label>
+                <select id="f-moex-metier" name="moex_metier">
+                  <option value="">— Sélectionner —</option>
+                  <option>Tous corps d'état (TCE)</option>
+                  <option>Gros œuvre / maçonnerie</option>
+                  <option>Charpente / couverture</option>
+                  <option>Électricité</option>
+                  <option>Plomberie / sanitaire</option>
+                  <option>Menuiserie aluminium</option>
+                  <option>Menuiserie bois</option>
+                  <option>Carrelage / revêtements</option>
+                  <option>Peinture / finitions</option>
+                  <option>Étanchéité</option>
+                  <option>Anti-humidité / traitement</option>
+                  <option>Aménagement intérieur</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="f-moex-effectif">Effectif</label>
+                <select id="f-moex-effectif" name="moex_effectif">
+                  <option value="">— Sélectionner —</option>
+                  <option>1 à 5 personnes</option><option>6 à 20</option>
+                  <option>21 à 50</option><option>51 à 200</option><option>Plus de 200</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-moex-pays">Pays / ville d'opération <span class="req">*</span></label>
+                <input type="text" id="f-moex-pays" name="moex_pays" placeholder="ex. Cameroun — Douala, Yaoundé"/>
+              </div>
+              <div class="form-field">
+                <label for="f-moex-attestations">Attestations</label>
+                <select id="f-moex-attestations" name="moex_attestations">
+                  <option value="">— Sélectionner —</option>
+                  <option>Toutes à jour (fiscale, sociale, assurance)</option>
+                  <option>Attestations partielles</option>
+                  <option>En cours de régularisation</option>
+                  <option>Pas encore</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row single">
+              <div class="form-field">
+                <label for="f-moex-references">Références notables (3 dernières)</label>
+                <textarea id="f-moex-references" name="moex_references" rows="3" placeholder="ex. R+5 Douala 2024 — gros œuvre 12 mois ; Rénovation hôtel 2023 — second œuvre 6 mois"></textarea>
+              </div>
+            </div>
+            <div class="form-row single">
+              <div class="form-field">
+                <label for="f-moex-msg">Pourquoi rejoindre KOMA en tant qu'entreprise MOEX ? <span class="req">*</span></label>
+                <textarea id="f-moex-msg" name="moex_message" rows="4" placeholder="Vos forces, votre approche du chantier, votre vision de la qualité et de la traçabilité…"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── SECTION SUPPLY ── -->
+          <div data-form-section="supply" hidden>
+            <div class="form-section-label">Votre activité de fourniture</div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-supply-entreprise">Nom de l'entreprise <span class="req">*</span></label>
+                <input type="text" id="f-supply-entreprise" name="supply_entreprise" placeholder="Raison sociale"/>
+              </div>
+              <div class="form-field">
+                <label for="f-supply-categorie">Catégorie de fourniture <span class="req">*</span></label>
+                <select id="f-supply-categorie" name="supply_categorie">
+                  <option value="">— Sélectionner —</option>
+                  <option>Béton / centrale à béton</option>
+                  <option>Fer à béton / armatures</option>
+                  <option>Ciment / agrégats</option>
+                  <option>Briques / blocs / BTC</option>
+                  <option>Bois / charpente</option>
+                  <option>Matériaux de couverture</option>
+                  <option>Carrelage / faïence</option>
+                  <option>Peinture / revêtements</option>
+                  <option>Quincaillerie / outillage</option>
+                  <option>Sanitaire / robinetterie</option>
+                  <option>Équipement électrique</option>
+                  <option>Multi-catégories</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-supply-pays">Pays / zone de livraison <span class="req">*</span></label>
+                <input type="text" id="f-supply-pays" name="supply_pays" placeholder="ex. Cameroun — Douala, Yaoundé, Bafoussam"/>
+              </div>
+              <div class="form-field">
+                <label for="f-supply-capacite">Capacité logistique</label>
+                <select id="f-supply-capacite" name="supply_capacite">
+                  <option value="">— Sélectionner —</option>
+                  <option>Livraison locale uniquement</option>
+                  <option>Livraison régionale</option>
+                  <option>Livraison nationale</option>
+                  <option>Stock disponible permanent</option>
+                  <option>Sur commande uniquement</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-supply-certifs">Certifications / normes</label>
+                <input type="text" id="f-supply-certifs" name="supply_certifs" placeholder="ex. NF, EN, ISO 9001, norme camerounaise…"/>
+              </div>
+              <div class="form-field">
+                <label for="f-supply-recettes">Recettes / contrôles qualité acceptés</label>
+                <select id="f-supply-recettes" name="supply_recettes">
+                  <option value="">— Sélectionner —</option>
+                  <option>Oui, sans réserve</option>
+                  <option>Oui, avec conditions</option>
+                  <option>Au cas par cas</option>
+                  <option>Non applicable</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row single">
+              <div class="form-field">
+                <label for="f-supply-msg">Présentez votre catalogue et vos conditions de partenariat <span class="req">*</span></label>
+                <textarea id="f-supply-msg" name="supply_message" rows="4" placeholder="Gamme proposée, conditions de paiement, délais de livraison, capacités de stockage…"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── SECTION FINANCIER ── -->
+          <div data-form-section="financier" hidden>
+            <div class="form-section-label">Votre activité financière</div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-fin-entreprise">Nom de l'institution <span class="req">*</span></label>
+                <input type="text" id="f-fin-entreprise" name="fin_entreprise" placeholder="Banque, établissement de paiement…"/>
+              </div>
+              <div class="form-field">
+                <label for="f-fin-type">Type d'activité <span class="req">*</span></label>
+                <select id="f-fin-type" name="fin_type">
+                  <option value="">— Sélectionner —</option>
+                  <option>Banque commerciale</option>
+                  <option>Établissement de paiement (PSP)</option>
+                  <option>Service de transfert d'argent</option>
+                  <option>Microfinance</option>
+                  <option>Crédit immobilier</option>
+                  <option>Établissement de garantie</option>
+                  <option>Néobanque / Fintech</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-fin-pays">Pays / zone d'opération <span class="req">*</span></label>
+                <input type="text" id="f-fin-pays" name="fin_pays" placeholder="ex. Cameroun, CEMAC, UEMOA…"/>
+              </div>
+              <div class="form-field">
+                <label for="f-fin-agrement">Agrément réglementaire</label>
+                <select id="f-fin-agrement" name="fin_agrement">
+                  <option value="">— Sélectionner —</option>
+                  <option>BEAC / COBAC</option>
+                  <option>BCEAO</option>
+                  <option>ACPR France</option>
+                  <option>Autre régulateur national</option>
+                  <option>En cours d'agrément</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-fin-services">Services proposés</label>
+                <select id="f-fin-services" name="fin_services">
+                  <option value="">— Sélectionner —</option>
+                  <option>Transferts internationaux diaspora</option>
+                  <option>Paiements par jalons (escrow)</option>
+                  <option>Crédit immobilier diaspora</option>
+                  <option>Garantie de paiement</option>
+                  <option>Comptes professionnels chantier</option>
+                  <option>Plusieurs services</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="f-fin-clients">Volumétrie clients diaspora</label>
+                <select id="f-fin-clients" name="fin_clients">
+                  <option value="">— Sélectionner —</option>
+                  <option>Moins de 100 clients</option><option>100 à 1 000</option>
+                  <option>1 000 à 10 000</option><option>Plus de 10 000</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row single">
+              <div class="form-field">
+                <label for="f-fin-msg">Présentez votre proposition de partenariat avec KOMA <span class="req">*</span></label>
+                <textarea id="f-fin-msg" name="fin_message" rows="4" placeholder="Synergies possibles, conditions, modalités d'intégration à la plateforme, sécurité…"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── CONSENTEMENT ── -->
+          <div class="form-row single consent" style="margin-top:24px;">
+            <label>
+              <input type="checkbox" name="rgpd" required/>
+              <span>J'accepte que KOMA Expertise utilise les informations ci-dessus pour me recontacter dans le cadre de ma demande. Les données sont confidentielles et ne sont jamais transmises à des tiers sans mon accord. <a href="#">Politique de confidentialité</a></span>
+            </label>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary btn-arrow btn-lg">Envoyer ma demande</button>
+            <span class="note">Réponse sous 48 h ouvrées.</span>
+          </div>
+
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <!-- Colonne infos -->
+      <aside class="contact-aside reveal">
+        <div class="card">
+          <div class="card-icon"><i class="ic" data-icon="phone"></i></div>
+          <h3>Contact direct</h3>
+          <p style="margin-bottom:14px;">Pour toute demande urgente ou si vous préférez échanger d'abord par téléphone :</p>
+          <p style="margin-bottom:8px;"><strong>Email</strong><br/><a href="mailto:contact@koma-expertise.com">contact@koma-expertise.com</a></p>
+          <p style="margin-bottom:8px;"><strong>Téléphone / WhatsApp</strong><br/><a href="tel:+33745129446">+33 7 45 12 94 46</a></p>
+          <p><strong>Présence</strong><br/>Siège : Bezannes, France<br/>Opérations partenaires : Cameroun &amp; Afrique</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="ic" data-icon="clock"></i></div>
+          <h3>Ce qui se passe ensuite</h3>
+          <ul class="feature-list" style="margin-top:12px;">
+            <li>Accusé de réception immédiat par email</li>
+            <li>Premier retour KOMA sous 48 h ouvrées</li>
+            <li>Visio de cadrage (45–60 min) si pertinent</li>
+            <li>Proposition de diagnostic chiffrée si vous souhaitez aller plus loin</li>
+          </ul>
+        </div>
+
+        <div class="card-dark">
+          <h3 style="margin-bottom:12px;">Confidentialité</h3>
+          <p style="color:rgba(255,255,255,.7);font-size:14px;">Vos informations sont traitées de manière confidentielle. Elles servent uniquement à analyser votre demande et à vous recontacter. Aucune transmission à des tiers sans votre accord explicite.</p>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ POURQUOI UN DIAGNOSTIC ═══════ -->
+<section class="bg-paper" data-screen-label="Pourquoi un diagnostic">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Pourquoi commencer par un diagnostic</span>
+      <h2>Un cadrage rigoureux coûte beaucoup moins cher qu'une erreur tardive.</h2>
+    </div>
+    <div class="cards-grid cols-3">
+      <div class="card reveal">
+        <div class="card-icon"><i class="ic" data-icon="search"></i></div>
+        <h3>Comprendre où vous en êtes</h3>
+        <p>Quelle phase, quel niveau de structuration, quels documents existent, quels intervenants sont déjà engagés.</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon"><i class="ic" data-icon="alert"></i></div>
+        <h3>Identifier les zones de risque</h3>
+        <p>Devis incohérents, lots manquants, signatures absentes, intervenants non qualifiés, paiements engagés sans preuve.</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon"><i class="ic" data-icon="compass"></i></div>
+        <h3>Définir la suite</h3>
+        <p>Feuille de route, jalons, livrables attendus, composition d'équipe pertinente. Aucun engagement avant cadrage validé.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/brand/logo-koma.jpg" alt="KOMA Expertise"/>
+        <p>Vos yeux sur votre projet immobilier en Afrique. SAS française basée à Bezannes (France), avec un écosystème opérationnel au Cameroun et en Afrique.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pour les clients</h4>
+        <ul>
+          <li><a href="methode.html">Comment ça marche</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="plateforme.html">Plateforme</a></li>
+          <li><a href="references.html">Réalisations</a></li>
+          <li><a href="contact.html">Parler de mon projet</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Pour les pros</h4>
+        <ul>
+          <li><a href="partenaires.html">Partenaires</a></li>
+          <li><a href="devenir-partenaire.html">Devenir partenaire</a></li>
+          <li><a href="contact.html?type=partenaire">Candidater</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Siège : Bezannes, France</li>
+          <li>Opérations partenaires : Cameroun &amp; Afrique</li>
+          <li><a href="mailto:contact@koma-expertise.com">contact@koma-expertise.com</a></li>
+          <li><a href="tel:+33745129446">+33 7 45 12 94 46</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-disclaimer">
+      <strong>&laquo; Votre argent ne doit pas avancer plus vite que les preuves du chantier. &raquo;</strong><br/>
+      KOMA Expertise &mdash; SAS française, siège social à Bezannes (France). Pilotage de projets immobiliers en Afrique avec un écosystème de partenaires qualifiés. KOMA n'intervient ni comme entreprise générale de travaux, ni comme établissement financier.
+    </p>
+    <div class="footer-bottom">
+      <span>&copy; 2026 KOMA Expertise &mdash; Tous droits réservés.</span>
+      <div class="legal">
+        <a href="#">Mentions légales</a>
+        <a href="#">Confidentialité</a>
+        <a href="#">CGU</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/icons.js"></script>
+<script src="assets/js/koma.js"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="assets/js/tweaks-panel.jsx"></script>
+<script type="text/babel" src="assets/js/koma-tweaks.jsx"></script>
+</body>
+</html>

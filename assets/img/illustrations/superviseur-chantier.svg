@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" width="520" height="400">
+  <title>Superviseur KOMA sur le chantier</title>
+  <desc>Superviseur africain avec casque et tablette contrôlant un chantier — illustration flat premium KOMA</desc>
+
+  <!-- Fond -->
+  <circle cx="260" cy="200" r="185" fill="#18B7D2" opacity=".07"/>
+
+  <!-- Bâtiment en construction (arrière-plan) -->
+  <g opacity=".9">
+    <rect x="290" y="118" width="160" height="190" fill="#DCE7EA"/>
+    <rect x="290" y="118" width="160" height="14" fill="#0E8FA8"/>
+    <rect x="306" y="148" width="32" height="38" fill="#9FCBD6"/>
+    <rect x="354" y="148" width="32" height="38" fill="#9FCBD6"/>
+    <rect x="402" y="148" width="32" height="38" fill="#9FCBD6"/>
+    <rect x="306" y="206" width="32" height="38" fill="#9FCBD6"/>
+    <rect x="354" y="206" width="32" height="38" fill="#9FCBD6"/>
+    <rect x="402" y="206" width="32" height="38" fill="#9FCBD6"/>
+    <!-- échafaudage -->
+    <line x1="282" y1="118" x2="282" y2="308" stroke="#B7842F" stroke-width="4"/>
+    <line x1="266" y1="138" x2="298" y2="138" stroke="#B7842F" stroke-width="3"/>
+    <line x1="266" y1="198" x2="298" y2="198" stroke="#B7842F" stroke-width="3"/>
+    <line x1="266" y1="258" x2="298" y2="258" stroke="#B7842F" stroke-width="3"/>
+    <!-- grue -->
+    <rect x="466" y="60" width="5" height="248" fill="#E0A33E"/>
+    <rect x="380" y="60" width="91" height="5" fill="#E0A33E"/>
+    <line x1="392" y1="65" x2="392" y2="92" stroke="#E0A33E" stroke-width="2.5"/>
+    <rect x="386" y="92" width="13" height="11" fill="#0E8FA8"/>
+  </g>
+
+  <!-- Sol -->
+  <rect x="40" y="306" width="440" height="6" rx="3" fill="#C7D4D9"/>
+
+  <!-- ─── Superviseur ─── -->
+  <!-- jambes pantalon -->
+  <path d="M150 268 L146 332 L166 332 L172 276Z" fill="#1D2B33"/>
+  <path d="M192 268 L198 332 L218 332 L210 272Z" fill="#1D2B33"/>
+  <rect x="140" y="328" width="32" height="12" rx="5" fill="#15100A"/>
+  <rect x="194" y="328" width="32" height="12" rx="5" fill="#15100A"/>
+
+  <!-- torse : gilet haute visibilité -->
+  <path d="M142 184 Q134 232 146 274 L214 274 Q226 230 218 184 Q200 168 180 168 Q160 168 142 184Z" fill="#E0A33E"/>
+  <!-- bandes réfléchissantes -->
+  <rect x="146" y="216" width="68" height="9" fill="#F6F8F9"/>
+  <path d="M158 172 L154 270 L166 270 L170 174Z" fill="#F6F8F9" opacity=".85"/>
+  <!-- chemise sous gilet -->
+  <path d="M170 168 L180 184 L192 168Z" fill="#0E8FA8"/>
+
+  <!-- tête -->
+  <circle cx="181" cy="138" r="27" fill="#5C3318"/>
+  <!-- casque -->
+  <path d="M152 132 Q152 102 181 100 Q210 102 210 132 L206 132 Q204 110 181 109 Q158 110 156 132Z" fill="#18B7D2"/>
+  <rect x="149" y="128" width="64" height="9" rx="4.5" fill="#0E8FA8"/>
+  <!-- visage : sourire -->
+  <path d="M170 150 Q181 158 192 150" stroke="#2D1A0C" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <circle cx="171" cy="138" r="2.6" fill="#2D1A0C"/>
+  <circle cx="191" cy="138" r="2.6" fill="#2D1A0C"/>
+
+  <!-- bras gauche tenant tablette -->
+  <path d="M146 192 Q120 210 116 236 L130 244 Q138 220 158 206Z" fill="#E0A33E"/>
+  <circle cx="123" cy="240" r="9" fill="#5C3318"/>
+
+  <!-- bras droit levé pouce -->
+  <path d="M214 192 Q240 184 252 164 L240 152 Q230 170 208 180Z" fill="#E0A33E"/>
+  <circle cx="246" cy="158" r="9" fill="#5C3318"/>
+  <rect x="248" y="142" width="8" height="14" rx="4" fill="#5C3318"/>
+
+  <!-- tablette -->
+  <g transform="rotate(8 112 252)">
+    <rect x="86" y="232" width="56" height="42" rx="6" fill="#16181A"/>
+    <rect x="90" y="236" width="48" height="34" rx="3" fill="#FFFFFF"/>
+    <rect x="94" y="240" width="28" height="4" rx="2" fill="#18B7D2"/>
+    <rect x="94" y="248" width="40" height="3" rx="1.5" fill="#E4E8EA"/>
+    <rect x="94" y="254" width="34" height="3" rx="1.5" fill="#E4E8EA"/>
+    <circle cx="98" cy="263" r="3" fill="#3D8E78"/>
+    <rect x="104" y="261" width="22" height="3.5" rx="1.75" fill="#3D8E78" opacity=".5"/>
+  </g>
+
+  <!-- Badge contrôle validé -->
+  <g transform="translate(300 330)">
+    <rect x="0" y="0" width="150" height="40" rx="20" fill="#FFFFFF" stroke="#E4E8EA"/>
+    <circle cx="21" cy="20" r="12" fill="#3D8E78"/>
+    <path d="M15 20 L19.5 24.5 L27.5 15.5" stroke="#fff" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="40" y="17" font-family="Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#16181A">Ferraillage contrôlé</text>
+    <text x="40" y="29" font-family="Arial, sans-serif" font-size="8.5" fill="#6E757B">avant chaque coulage</text>
+  </g>
+
+  <!-- Badge photo horodatée -->
+  <g transform="translate(44 60)">
+    <rect x="0" y="0" width="132" height="40" rx="20" fill="#FFFFFF" stroke="#E4E8EA"/>
+    <circle cx="21" cy="20" r="12" fill="#0E8FA8"/>
+    <rect x="14.5" y="15" width="13" height="10" rx="2" fill="#fff"/>
+    <circle cx="21" cy="20" r="3" fill="#0E8FA8"/>
+    <text x="40" y="17" font-family="Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#16181A">Photo horodatée</text>
+    <text x="40" y="29" font-family="Arial, sans-serif" font-size="8.5" fill="#6E757B">archivée au dossier</text>
+  </g>
+</svg>

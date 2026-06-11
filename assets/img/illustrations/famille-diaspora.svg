@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" width="520" height="400">
+  <title>Famille de la diaspora suivant son chantier en vidéo</title>
+  <desc>Couple africain consultant l'avancement de son chantier au pays sur une tablette — illustration flat premium KOMA</desc>
+
+  <!-- Fond doux -->
+  <circle cx="260" cy="200" r="185" fill="#18B7D2" opacity=".07"/>
+  <circle cx="260" cy="200" r="140" fill="#6BC0AA" opacity=".06"/>
+
+  <!-- Canapé -->
+  <rect x="90" y="248" width="340" height="86" rx="18" fill="#0B5468"/>
+  <rect x="74" y="232" width="40" height="102" rx="14" fill="#0E8FA8"/>
+  <rect x="406" y="232" width="40" height="102" rx="14" fill="#0E8FA8"/>
+  <rect x="100" y="330" width="22" height="26" rx="4" fill="#0A3A4A"/>
+  <rect x="398" y="330" width="22" height="26" rx="4" fill="#0A3A4A"/>
+
+  <!-- ─── Femme (gauche) ─── -->
+  <!-- corps / robe -->
+  <path d="M168 204 Q160 252 166 270 L230 270 Q236 246 226 204 Q210 190 196 190 Q180 190 168 204Z" fill="#E0A33E"/>
+  <!-- motif robe wax simplifié -->
+  <circle cx="186" cy="232" r="5" fill="#C9842B" opacity=".7"/>
+  <circle cx="210" cy="248" r="5" fill="#C9842B" opacity=".7"/>
+  <circle cx="198" cy="218" r="3" fill="#C9842B" opacity=".7"/>
+  <!-- tête -->
+  <circle cx="197" cy="166" r="26" fill="#7A4A28"/>
+  <!-- cheveux attachés -->
+  <path d="M173 158 Q172 132 197 130 Q222 132 221 158 Q220 142 197 141 Q174 142 173 158Z" fill="#1D1208"/>
+  <circle cx="197" cy="133" r="13" fill="#1D1208"/>
+  <!-- boucle d'oreille -->
+  <circle cx="174" cy="170" r="3" fill="#E0A33E"/>
+  <!-- bras tendu vers tablette -->
+  <path d="M222 214 Q248 222 262 238 L254 250 Q236 236 216 230Z" fill="#7A4A28"/>
+
+  <!-- ─── Homme (droite) ─── -->
+  <!-- corps / chemise -->
+  <path d="M296 206 Q288 250 292 270 L360 270 Q366 248 356 206 Q338 192 326 192 Q310 192 296 206Z" fill="#18B7D2"/>
+  <path d="M322 196 L326 212 L332 196Z" fill="#F6F8F9"/>
+  <!-- tête -->
+  <circle cx="327" cy="166" r="26" fill="#5C3318"/>
+  <!-- cheveux courts -->
+  <path d="M303 160 Q303 136 327 134 Q351 136 351 160 Q348 144 327 143 Q306 144 303 160Z" fill="#15100A"/>
+  <!-- barbe courte -->
+  <path d="M310 178 Q318 192 327 192 Q336 192 344 178 Q338 188 327 188 Q316 188 310 178Z" fill="#15100A"/>
+  <!-- bras tendu vers tablette -->
+  <path d="M300 216 Q278 226 266 240 L274 252 Q288 238 306 232Z" fill="#5C3318"/>
+
+  <!-- ─── Tablette au centre ─── -->
+  <g transform="rotate(-4 262 250)">
+    <rect x="216" y="216" width="92" height="68" rx="8" fill="#16181A"/>
+    <rect x="221" y="221" width="82" height="58" rx="4" fill="#FFFFFF"/>
+    <!-- mini chantier sur l'écran -->
+    <rect x="226" y="252" width="72" height="22" fill="#E8F6F4"/>
+    <rect x="234" y="238" width="18" height="20" fill="#0E8FA8"/>
+    <rect x="256" y="232" width="22" height="26" fill="#18B7D2"/>
+    <path d="M255 232 L267 222 L279 232Z" fill="#0B5468"/>
+    <!-- grue -->
+    <rect x="284" y="226" width="3" height="30" fill="#E0A33E"/>
+    <rect x="272" y="226" width="24" height="3" fill="#E0A33E"/>
+    <!-- badge live -->
+    <rect x="226" y="225" width="26" height="9" rx="4.5" fill="#B3261E"/>
+    <circle cx="232" cy="229.5" r="2" fill="#fff"/>
+    <text x="237" y="232" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#fff">LIVE</text>
+  </g>
+
+  <!-- Bulle preuve validée -->
+  <g transform="translate(348 130)">
+    <rect x="0" y="0" width="118" height="38" rx="19" fill="#FFFFFF" stroke="#E4E8EA"/>
+    <circle cx="20" cy="19" r="11" fill="#3D8E78"/>
+    <path d="M14.5 19 L18.5 23 L26 15" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="38" y="16" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#16181A">Fondations validées</text>
+    <text x="38" y="27" font-family="Arial, sans-serif" font-size="8" fill="#6E757B">PV signé · photos datées</text>
+  </g>
+
+  <!-- Bulle paiement sécurisé -->
+  <g transform="translate(52 96)">
+    <rect x="0" y="0" width="112" height="38" rx="19" fill="#FFFFFF" stroke="#E4E8EA"/>
+    <circle cx="20" cy="19" r="11" fill="#0E8FA8"/>
+    <path d="M20 12 L26 15 V20 Q26 25 20 27 Q14 25 14 20 V15Z" fill="#fff"/>
+    <text x="38" y="16" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#16181A">Paiement bloqué</text>
+    <text x="38" y="27" font-family="Arial, sans-serif" font-size="8" fill="#6E757B">en attente de preuve</text>
+  </g>
+</svg>

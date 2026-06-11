@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" width="760" height="240">
+  <title>Comment votre argent est protégé — parcours en 4 temps</title>
+  <desc>Schéma : votre argent reste bloqué tant que la preuve du chantier n'est pas validée — illustration KOMA</desc>
+
+  <defs>
+    <marker id="fleche" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8Z" fill="#9AA1A7"/>
+    </marker>
+  </defs>
+
+  <!-- Ligne de parcours -->
+  <line x1="120" y1="120" x2="230" y2="120" stroke="#C7D4D9" stroke-width="3" marker-end="url(#fleche)"/>
+  <line x1="310" y1="120" x2="420" y2="120" stroke="#C7D4D9" stroke-width="3" marker-end="url(#fleche)"/>
+  <line x1="500" y1="120" x2="610" y2="120" stroke="#C7D4D9" stroke-width="3" marker-end="url(#fleche)"/>
+
+  <!-- ── 1. Vous envoyez ── -->
+  <g transform="translate(30 60)">
+    <circle cx="60" cy="60" r="52" fill="#FFFFFF" stroke="#E4E8EA" stroke-width="2"/>
+    <!-- billets -->
+    <rect x="38" y="46" width="44" height="26" rx="4" fill="#3D8E78"/>
+    <rect x="42" y="42" width="44" height="26" rx="4" fill="#4E9F8A"/>
+    <circle cx="64" cy="55" r="8" fill="#FFFFFF" opacity=".85"/>
+    <text x="64" y="59" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3D8E78">F</text>
+    <!-- flèche envoi -->
+    <path d="M60 84 L60 96 M54 90 L60 96 L66 90" stroke="#0E8FA8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16181A">1. Vous envoyez</text>
+    <text x="60" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6E757B">par jalon, jamais en bloc</text>
+  </g>
+
+  <!-- ── 2. L'argent attend ── -->
+  <g transform="translate(220 60)">
+    <circle cx="60" cy="60" r="52" fill="#FFFFFF" stroke="#0E8FA8" stroke-width="2.5"/>
+    <!-- coffre / bouclier -->
+    <path d="M60 26 L88 38 V58 Q88 82 60 92 Q32 82 32 58 V38Z" fill="#0E8FA8"/>
+    <rect x="50" y="52" width="20" height="18" rx="3" fill="#FFFFFF"/>
+    <rect x="56" y="44" width="8" height="12" rx="4" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <circle cx="60" cy="60" r="3" fill="#0E8FA8"/>
+    <text x="60" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16181A">2. L'argent attend</text>
+    <text x="60" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6E757B">bloqué jusqu'à la preuve</text>
+  </g>
+
+  <!-- ── 3. La preuve arrive ── -->
+  <g transform="translate(410 60)">
+    <circle cx="60" cy="60" r="52" fill="#FFFFFF" stroke="#E4E8EA" stroke-width="2"/>
+    <!-- photo + PV -->
+    <rect x="34" y="40" width="34" height="26" rx="3" fill="#18B7D2"/>
+    <circle cx="44" cy="49" r="4" fill="#FFFFFF"/>
+    <path d="M36 62 L46 52 L54 60 L60 54 L66 62Z" fill="#FFFFFF" opacity=".9"/>
+    <rect x="56" y="52" width="26" height="32" rx="3" fill="#FFFFFF" stroke="#9AA1A7"/>
+    <line x1="61" y1="60" x2="77" y2="60" stroke="#9AA1A7" stroke-width="2"/>
+    <line x1="61" y1="66" x2="77" y2="66" stroke="#9AA1A7" stroke-width="2"/>
+    <line x1="61" y1="72" x2="71" y2="72" stroke="#9AA1A7" stroke-width="2"/>
+    <circle cx="76" cy="78" r="8" fill="#3D8E78"/>
+    <path d="M72.5 78 L75 80.5 L80 75.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- horodatage -->
+    <rect x="32" y="68" width="38" height="11" rx="5.5" fill="#16181A"/>
+    <text x="51" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="7.5" fill="#FFFFFF">12/06 · 14:32</text>
+    <text x="60" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16181A">3. La preuve arrive</text>
+    <text x="60" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6E757B">photo datée + PV signé</text>
+  </g>
+
+  <!-- ── 4. Vous validez, l'argent part ── -->
+  <g transform="translate(600 60)">
+    <circle cx="60" cy="60" r="52" fill="#3D8E78"/>
+    <!-- main qui valide -->
+    <path d="M40 62 L52 74 L82 44" stroke="#FFFFFF" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16181A">4. Vous validez</text>
+    <text x="60" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6E757B">l'argent part — pas avant</text>
+  </g>
+</svg>

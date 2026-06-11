@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Plateforme KOMA — Cockpit digital pour piloter votre projet à distance</title>
+<meta name="description" content="La plateforme KOMA centralise dashboard projet, GED, rapports chantier, messagerie validations, factures, suivi financier et alertes. IA assistée, validation humaine. Accessible web et mobile."/>
+<script>(function(){try{var s=JSON.parse(localStorage.getItem('koma_theme')||'{}');for(var k in s){document.documentElement.dataset[k]=s[k];}}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=DM+Sans:wght@300;400;500;600;700;800;900&family=Schibsted+Grotesk:wght@500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/koma.css">
+<link rel="stylesheet" href="assets/css/koma-pages.css">
+<link rel="stylesheet" href="assets/css/koma-human.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="nav-brand" href="index.html" aria-label="Accueil KOMA Expertise">
+      <img src="assets/img/brand/logo-koma.jpg" alt="KOMA Expertise"/>
+    </a>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="methode.html">Méthode</a>
+      <a href="plateforme.html">Plateforme</a>
+      <a href="references.html">Réalisations</a>
+      <a href="partenaires.html">Partenaires</a>
+      <a href="apropos.html">Qui sommes-nous</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="devenir-partenaire.html" class="btn btn-ghost btn-sm">Devenir partenaire</a>
+      <a href="contact.html" class="btn btn-primary btn-sm">Parler de mon projet</a>
+    </div>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ═══════ HERO ═══════ -->
+<section class="hero-page" data-screen-label="Hero Plateforme">
+  <div class="container">
+    <span class="eyebrow on-dark">Plateforme</span>
+    <h1>Un cockpit digital pour garder le contrôle, <span class="accent">même à 6 000 km</span> du chantier.</h1>
+    <p class="lead">La plateforme KOMA centralise tout ce qui compte pour votre projet : avancement, documents, photos, validations, factures et alertes. Accessible depuis votre navigateur ou votre mobile, partout dans le monde.</p>
+    <div class="hero-ctas">
+      <a href="contact.html" class="btn btn-primary btn-arrow btn-lg">Voir la plateforme en démo</a>
+      <a href="#modules" class="btn btn-ghost-dark">Explorer les modules</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ DASHBOARD ═══════ -->
+<section data-screen-label="Dashboard">
+  <div class="container">
+    <div class="two-col">
+      <div class="reveal">
+        <span class="eyebrow">Dashboard projet</span>
+        <h2>Votre projet entier sur un seul écran.</h2>
+        <p class="lead">Avancement physique et financier, prochain jalon, dernier rapport, alertes en cours, prochain décaissement. Vous voyez en un coup d'œil où en est votre projet et ce qui attend votre décision.</p>
+        <ul class="feature-list mt-24">
+          <li>Avancement physique et financier en temps réel</li>
+          <li>Budget prévu / engagé / payé / reste à payer</li>
+          <li>Prochaine validation attendue identifiée</li>
+          <li>Dernier rapport chantier accessible en un clic</li>
+          <li>Alertes catégorisées — qualité, planning, budget, conformité</li>
+          <li>Multi-projets pour les clients ayant plusieurs opérations</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <div class="mockup">
+          <div class="mock-bar">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="url">app.koma-expertise.com</span>
+          </div>
+          <div class="mock-body">
+            <aside class="mock-sidebar">
+              <div class="mini-logo">K</div>
+              <div class="mock-nav-ico active" title="Mon projet"><i class="ic" data-icon="home"></i></div>
+              <div class="mock-nav-ico" title="Décisions"><i class="ic" data-icon="zap"></i></div>
+              <div class="mock-nav-ico" title="Avancement"><i class="ic" data-icon="trending-up"></i></div>
+              <div class="mock-nav-ico" title="Finances"><i class="ic" data-icon="euro"></i></div>
+              <div class="mock-nav-ico" title="Documents"><i class="ic" data-icon="folder"></i></div>
+              <div class="mock-nav-ico" title="Rapports"><i class="ic" data-icon="file-text"></i></div>
+              <div class="mock-nav-ico" title="Messagerie"><i class="ic" data-icon="message"></i></div>
+              <div class="mock-nav-ico" title="Chantier live"><i class="ic" data-icon="camera"></i></div>
+            </aside>
+            <div class="mock-main">
+              <div class="mock-header">
+                <div>
+                  <div class="mock-title">Villa Éden — Douala, Bonamoussadi</div>
+                  <div class="mock-sub">Construction neuve · 280 m² · R+1</div>
+                </div>
+                <span class="mock-phase-badge">Phase 7/8</span>
+              </div>
+              <div class="mock-tiles">
+                <div class="mock-tile">
+                  <div class="mock-tile-label">Budget</div>
+                  <div class="mock-tile-value">120 M</div>
+                </div>
+                <div class="mock-tile">
+                  <div class="mock-tile-label">Engagé</div>
+                  <div class="mock-tile-value engaged">68 M</div>
+                </div>
+                <div class="mock-tile">
+                  <div class="mock-tile-label">Payé</div>
+                  <div class="mock-tile-value paid">44,4 M</div>
+                </div>
+                <div class="mock-tile">
+                  <div class="mock-tile-label">RAP</div>
+                  <div class="mock-tile-value">79,1 M</div>
+                </div>
+              </div>
+              <div class="mock-progress-block">
+                <div class="mock-progress-label">
+                  <span>Avancement global · Toiture en cours</span>
+                  <strong>44 %</strong>
+                </div>
+                <div class="mock-progress-bar"><div class="mock-progress-fill" data-width="44%"></div></div>
+              </div>
+              <div class="mock-alert">
+                <span class="dot"></span>
+                <span><strong>Point d'arrêt</strong> — Ferraillage chaînage R+1, validation requise avant coulage prévu jeudi.</span>
+              </div>
+              <div class="mock-alert info">
+                <span class="dot"></span>
+                <span><strong>Ceyna Pay</strong> — Prochain décaissement 8,4 M FCFA, Lot II maçonnerie, en attente de votre validation.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="muted mt-12" style="font-size:12.5px;text-align:center;">Aperçu du portail client KOMA — données illustratives.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ MODULES ═══════ -->
+<section id="modules" class="bg-paper" data-screen-label="Modules">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Modules</span>
+      <h2>Tout ce qu'il faut pour piloter, prouver et archiver.</h2>
+      <p class="lead">La plateforme s'organise en modules métier dédiés, conçus pour les rôles Client, SPOC, AMOA, MOE, MOEX, Supply et Admin. Chaque module produit, collecte ou valide une part de la preuve projet.</p>
+    </div>
+
+    <div class="modules-grid">
+
+      <div class="module-card reveal">
+        <div class="module-screen">
+          <div class="screen-frame">
+            <div class="sf-title">Villa Éden · Phase 7/8 <span class="sf-pill">44 %</span></div>
+            <div class="sf-grid-2">
+              <div class="sf-tile-mini"><div class="sf-tile-label">Budget</div><div class="sf-tile-value">120 M</div></div>
+              <div class="sf-tile-mini"><div class="sf-tile-label">Payé</div><div class="sf-tile-value ok">44,4 M</div></div>
+              <div class="sf-tile-mini"><div class="sf-tile-label">Engagé</div><div class="sf-tile-value warn">68 M</div></div>
+              <div class="sf-tile-mini"><div class="sf-tile-label">RAP</div><div class="sf-tile-value">79,1 M</div></div>
+            </div>
+            <div class="sf-bar" style="margin-top:8px;"><div class="sf-bar-fill" style="width:44%;"></div></div>
+          </div>
+        </div>
+        <div class="module-body">
+          <div class="card-icon"><i class="ic" data-icon="dashboard"></i></div>
+          <h3>Dashboard projet</h3>
+          <p>Vue d'ensemble : avancement, budget prévu / engagé / payé / RAP, prochain jalon, alertes. Filtrable par projet pour les multi-opérations.</p>
+        </div>
+      </div>
+
+      <div class="module-card reveal">
+        <div class="module-screen">
+          <div class="screen-frame">
+            <div class="sf-title">Documents · 52 fichiers <span class="sf-pill">Phase 6</span></div>
+            <div class="sf-file-row"><span class="sf-file-icon">PDF</span><span class="sf-label">Devis_V3_signe.pdf</span><span class="sf-pill ok">Signé</span></div>
+            <div class="sf-file-row"><span class="sf-file-icon">PDF</span><span class="sf-label">Rapport_visite_12-04.pdf</span><span class="sf-pill ok">Validé</span></div>
+            <div class="sf-file-row"><span class="sf-file-icon">DWG</span><span class="sf-label">Plans_APS_RDC_v2.dwg</span><span class="sf-pill ok">Validé</span></div>
+            <div class="sf-file-row"><span class="sf-file-icon">PDF</span><span class="sf-label">Facture_FAC-003.pdf</span><span class="sf-pill warn">À payer</span></div>
+          </div>
+        </div>
+        <div class="module-body">
+          <div class="card-icon"><i class="ic" data-icon="folder"></i></div>
+          <h3>GED structurée</h3>
+          <p>Documents classés par phase, par lot et par opération. Chaque pièce est versionnée, datée, traçable et opposable.</p>
+        </div>
+      </div>
+
+      <div class="module-card reveal">
+        <div class="module-screen">
+          <div class="screen-frame">
+            <div class="sf-title">Rapports terrain <span class="sf-pill">6 cette semaine</span></div>
+            <div class="sf-row"><span class="sf-label">RV-04-12 · Visite AMOA</span><span class="sf-pill ok">Validé</span></div>
+            <div class="sf-row"><span class="sf-label">RJ-04-16 · Journalier</span><span class="sf-pill ok">Validé</span></div>
+            <div class="sf-row"><span class="sf-label">RH-04-14 · Hebdo S16</span><span class="sf-pill ok">Validé</span></div>
+            <div class="sf-row"><span class="sf-label">RJ-04-13 · Pluie 42 mm</span><span class="sf-pill warn">Vigilance</span></div>
+          </div>
+        </div>
+        <div class="module-body">
+          <div class="card-icon"><i class="ic" data-icon="clipboard"></i></div>
+          <h3>Rapports chantier</h3>
+          <p>Rapports journaliers, hebdomadaires et mensuels avec photos horodatées, faits marquants et points de blocage. Validés par l'AMOA.</p>
+        </div>
+      </div>
+
+      <div class="module-card reveal">
+        <div class="module-screen">
+          <div class="screen-frame">
+            <div class="sf-title">Décisions <span class="sf-pill">3 en attente</span></div>
+            <div class="sf-row"><span class="sf-label">Validation ferraillage R+1</span><span class="sf-pill warn">À valider</span></div>
+            <div class="sf-row"><span class="sf-label">Devis lot III · Charpente</span><span class="sf-pill warn">À valider</span></div>
+            <div class="sf-row"><span class="sf-label">Variante terrasse</span><span class="sf-pill">À examiner</span></div>
+            <div class="sf-row"><span class="sf-label">PV recette béton B25</span><span class="sf-pill ok">Validé hier</span></div>
+          </div>
+        </div>
+        <div class="module-body">
+          <div class="card-icon"><i class="ic" data-icon="message"></i></div>
+          <h3>Messagerie &amp; validations</h3>
+          <p>Échanges contextualisés par projet et par lot. Validations explicites et traçables des décisions importantes.</p>
+        </div>
+      </div>
+
+      <div class="module-card reveal">
+        <div class="module-screen">
+          <div class="screen-frame">
+            <div class="sf-title">Factures · Avril 2026 <span class="sf-pill">5 factures</span></div>
+            <div class="sf-row"><span class="sf-label">FAC-001 · Acompte Lot II</span><span class="sf-value ok">14,25 M</span></div>
+            <div class="sf-row"><span class="sf-label">FAC-002 · Études géo</span><span class="sf-value ok">1,75 M</span></div>
+            <div class="sf-row"><span class="sf-label">FAC-003 · Approvisionnement</span><span class="sf-value warn">8,4 M</span></div>
+            <div class="sf-row"><span class="sf-label">FAC-005 · AMOA T1</span><span class="sf-value ok">2,8 M</span></div>
+          </div>
+        </div>
+        <div class="module-body">
+          <div class="card-icon"><i class="ic" data-icon="banknote"></i></div>
+          <h3>Factures &amp; paiements</h3>
+          <p>Bons de commande, situations de travaux, factures, paiements via Ceyna Pay liés aux preuves correspondantes.</p>
+        </div>
+      </div>
+
+      <div class="module-card reveal">
+        <div class="module-screen">
+          <div class="screen-frame">
+            <div class="sf-title">Appro chantier <span class="sf-pill">12 commandes</span></div>
+            <div class="sf-row"><span class="sf-label">Sable · 30 m³</span><span class="sf-pill ok">Reçu</span></div>
+            <div class="sf-row"><span class="sf-label">Fer 12 mm · 100 barres</span><span class="sf-pill ok">Reçu</span></div>
+            <div class="sf-row"><span class="sf-label">Ciment 50 kg · 200 sacs</span><span class="sf-pill">En transit</span></div>
+            <div class="sf-row"><span class="sf-label">Béton B25 · 24 m³</span><span class="sf-pill warn">Commandé</span></div>
+          </div>
+        </div>
+        <div class="module-body">
+          <div class="card-icon"><i class="ic" data-icon="package"></i></div>
+          <h3>Approvisionnement chantier</h3>
+          <p>Commandes matériaux, suivi des livraisons, recettes à réception, ruptures fournisseurs, traçabilité de la chaîne d'approvisionnement.</p>
+        </div>
+      </div>
+
+      <div class="module-card reveal">
+        <div class="module-screen">
+          <div class="screen-frame">
+            <div class="sf-title">Photos chantier <span class="sf-pill">45 cette semaine</span></div>
+            <div class="sf-row"><span class="sf-label">Ferraillage R+1 · 16/04</span><span class="sf-value ok">12 photos</span></div>
+            <div class="sf-row"><span class="sf-label">Coulage R+1 · 17/04</span><span class="sf-value ok">8 photos</span></div>
+            <div class="sf-row"><span class="sf-label">Recette sable · 15/04</span><span class="sf-value ok">6 photos</span></div>
+            <div class="sf-row"><span class="sf-label">Visite AMOA · 12/04</span><span class="sf-value">1 vidéo</span></div>
+          </div>
+        </div>
+        <div class="module-body">
+          <div class="card-icon"><i class="ic" data-icon="camera"></i></div>
+          <h3>Chantier live</h3>
+          <p>Galerie photos chronologique, vidéos de visite, géolocalisation des prises de vue, classement par phase et par lot.</p>
+        </div>
+      </div>
+
+      <div class="module-card reveal">
+        <div class="module-screen">
+          <div class="screen-frame">
+            <div class="sf-title">Alertes actives <span class="sf-pill danger">2 critiques</span></div>
+            <div class="sf-row"><span class="sf-label">Point d'arrêt ferraillage R+1</span><span class="sf-pill danger">Bloquant</span></div>
+            <div class="sf-row"><span class="sf-label">Approvisionnement fer avril</span><span class="sf-pill warn">Vigilance</span></div>
+            <div class="sf-row"><span class="sf-label">Retard météo · 1 jour</span><span class="sf-pill">Info</span></div>
+            <div class="sf-row"><span class="sf-label">Variation budget +1,2 %</span><span class="sf-pill">Info</span></div>
+          </div>
+        </div>
+        <div class="module-body">
+          <div class="card-icon"><i class="ic" data-icon="alert"></i></div>
+          <h3>Alertes &amp; planning</h3>
+          <p>Alertes catégorisées — qualité, planning, budget, conformité, météo — avec niveau de gravité et destinataire dédié. Recalages partagés avec le client.</p>
+        </div>
+      </div>
+
+      <div class="module-card reveal">
+        <div class="module-screen">
+          <div class="screen-frame">
+            <div class="sf-title">Suivi financier <span class="sf-pill">Phase 7</span></div>
+            <div class="sf-row"><span class="sf-label">Budget initial</span><span class="sf-value">120 M</span></div>
+            <div class="sf-row"><span class="sf-label">Réactualisé</span><span class="sf-value warn">123,5 M</span></div>
+            <div class="sf-row"><span class="sf-label">Engagé</span><span class="sf-value">68 M (55 %)</span></div>
+            <div class="sf-row"><span class="sf-label">Payé via Ceyna Pay</span><span class="sf-value ok">44,4 M</span></div>
+          </div>
+        </div>
+        <div class="module-body">
+          <div class="card-icon"><i class="ic" data-icon="trending-up"></i></div>
+          <h3>Suivi financier</h3>
+          <p>Budget initial, réactualisé, engagé, payé, restant. Écarts par lot. Historique des décisions financières et transferts Ceyna Pay.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ RÔLES & PORTAILS ═══════ -->
+<section data-screen-label="Rôles et portails">
+  <div class="container">
+    <div class="section-head split">
+      <div>
+        <span class="eyebrow">Rôles &amp; portails</span>
+        <h2>Six rôles, six portails métier.</h2>
+      </div>
+      <p class="lead">Chaque acteur dispose d'un portail adapté à son métier. Les permissions, les vues et les actions sont configurées selon le rôle.</p>
+    </div>
+
+    <div class="roles-grid">
+      <div class="role-card reveal">
+        <span class="role-acronym">CLIENT</span>
+        <span class="role-acronym-meaning">Vous, le décideur</span>
+        <h3>Décisions &amp; validations</h3>
+        <p>Vue projet, validations contractuelles, accès GED, suivi budget, rapports périodiques. Vous restez le décideur final à chaque arbitrage.</p>
+      </div>
+      <div class="role-card reveal">
+        <span class="role-acronym">SPOC</span>
+        <span class="role-acronym-meaning">Single Point of Contact</span>
+        <h3>Orchestration client</h3>
+        <p>Point de contact unique côté France. Orchestre, synthétise, alerte. Gère la relation client et coordonne tous les intervenants.</p>
+      </div>
+      <div class="role-card reveal">
+        <span class="role-acronym">AMOA</span>
+        <span class="role-acronym-meaning">Assistance à Maîtrise d'Ouvrage</span>
+        <h3>Garde-fou du client</h3>
+        <p>Cadrage, programme, analyse de devis, accompagnement des décisions. Garant de la cohérence projet et du contrôle qualité.</p>
+      </div>
+      <div class="role-card t-mint reveal">
+        <span class="role-acronym">MOE</span>
+        <span class="role-acronym-meaning">Maîtrise d'Œuvre</span>
+        <h3>Conception technique</h3>
+        <p>Études, plans, dossiers techniques, contrôle technique. Coordination des intervenants spécialisés (structure, fluides, VRD).</p>
+      </div>
+      <div class="role-card t-mint reveal">
+        <span class="role-acronym">MOEX</span>
+        <span class="role-acronym-meaning">Maîtrise d'Œuvre d'Exécution</span>
+        <h3>Conduite de chantier</h3>
+        <p>Conduite de chantier, contrôle qualité terrain, points d'arrêt, situations de travaux, photos horodatées.</p>
+      </div>
+      <div class="role-card t-ink reveal">
+        <span class="role-acronym">ADMIN</span>
+        <span class="role-acronym-meaning">Administration plateforme</span>
+        <h3>Gestion &amp; référentiels</h3>
+        <p>Gestion des utilisateurs, projets et partenaires, paramétrage des référentiels qualité. Visibilité globale sur les opérations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ IA ═══════ -->
+<section class="bg-paper" data-screen-label="IA">
+  <div class="container">
+    <div class="two-col reverse">
+      <div class="reveal">
+        <span class="eyebrow">Intelligence artificielle</span>
+        <h2>L'IA assiste. L'humain valide. Le client gagne en visibilité.</h2>
+        <p class="lead">L'IA est intégrée là où elle apporte un vrai gain : analyse documentaire, aide à la rédaction de rapports, détection d'incohérences. Elle ne décide jamais seule.</p>
+        <ul class="feature-list mt-24">
+          <li>Génération assistée de rapports chantier</li>
+          <li>Analyse documentaire — devis, factures, marchés</li>
+          <li>Alertes planning et budget par croisement de données</li>
+          <li>Détection d'incohérences entre devis et factures</li>
+          <li>Assistance au contrôle qualité visuel</li>
+          <li>Aide au classement des photos chantier</li>
+        </ul>
+        <div class="highlight mt-32">Toute décision impactant le projet est validée par un humain : SPOC, AMOA, MOE ou client selon le périmètre.</div>
+      </div>
+      <div class="reveal">
+        <div class="card-dark">
+          <div class="ai-meta">Exemple d'alerte IA</div>
+          <h3 style="font-size:18px;">Écart détecté : devis vs facture lot 04 (béton)</h3>
+          <ul class="kv-rows">
+            <li><span class="k">Devis approuvé</span><span class="v">12,4 m³ × 95 000 FCFA</span></li>
+            <li><span class="k">Facture reçue</span><span class="v">14,1 m³ × 95 000 FCFA</span></li>
+            <li><span class="k">Écart</span><span class="v warn">+ 161 500 FCFA · +13,7 %</span></li>
+          </ul>
+          <div class="ai-reco"><strong>Recommandation IA :</strong> demander au MOEX la justification de la quantité supplémentaire (BL fournisseur + relevé chantier) avant validation du paiement.</div>
+          <div class="ai-chips">
+            <span>Analyse documentaire</span>
+            <span class="ok">Validée par l'AMOA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ ACCÈS & SÉCURITÉ ═══════ -->
+<section data-screen-label="Accès et sécurité">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Accès &amp; pérennité</span>
+      <h2>Accessible partout, archivée pour de bon.</h2>
+    </div>
+
+    <div class="cards-grid cols-3">
+      <div class="card reveal">
+        <div class="card-icon"><i class="ic" data-icon="globe"></i></div>
+        <h3>Web et mobile</h3>
+        <p>Interface responsive accessible depuis tous les navigateurs modernes. Application mobile native en développement.</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon"><i class="ic" data-icon="lock"></i></div>
+        <h3>Stockage sécurisé</h3>
+        <p>Hébergement européen conforme RGPD. Chiffrement en transit et au repos. Sauvegardes redondantes.</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon"><i class="ic" data-icon="infinity"></i></div>
+        <h3>Archivage à vie</h3>
+        <p>Vos documents projet restent accessibles après livraison. La mémoire du projet ne disparaît pas avec la fin du chantier.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CTA ═══════ -->
+<section class="bg-paper" data-screen-label="CTA">
+  <div class="container">
+    <div class="cta-band reveal">
+      <h2>Envie de voir la plateforme en conditions réelles ?</h2>
+      <p>Demandez une démonstration personnalisée. Nous vous montrons comment KOMA s'adapte à votre projet et à votre rôle — client, investisseur ou partenaire.</p>
+      <div class="hero-ctas">
+        <a href="contact.html" class="btn btn-white btn-arrow btn-lg">Demander une démo</a>
+        <a href="methode.html" class="btn btn-ghost-dark btn-lg">Revoir la méthode</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="contact.html" class="sticky-cta-mobile">Parler de mon projet →</a>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/brand/logo-koma.jpg" alt="KOMA Expertise"/>
+        <p>Vos yeux sur votre projet immobilier en Afrique. SAS française basée à Bezannes (France), avec un écosystème opérationnel au Cameroun et en Afrique.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pour les clients</h4>
+        <ul>
+          <li><a href="methode.html">Comment ça marche</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="plateforme.html">Plateforme</a></li>
+          <li><a href="references.html">Réalisations</a></li>
+          <li><a href="contact.html">Parler de mon projet</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Pour les pros</h4>
+        <ul>
+          <li><a href="partenaires.html">Partenaires</a></li>
+          <li><a href="devenir-partenaire.html">Devenir partenaire</a></li>
+          <li><a href="contact.html?type=partenaire">Candidater</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Siège : Bezannes, France</li>
+          <li>Opérations partenaires : Cameroun &amp; Afrique</li>
+          <li><a href="mailto:contact@koma-expertise.com">contact@koma-expertise.com</a></li>
+          <li><a href="tel:+33745129446">+33 7 45 12 94 46</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-disclaimer">
+      <strong>&laquo; Votre argent ne doit pas avancer plus vite que les preuves du chantier. &raquo;</strong><br/>
+      KOMA Expertise &mdash; SAS française, siège social à Bezannes (France). Pilotage de projets immobiliers en Afrique avec un écosystème de partenaires qualifiés. KOMA n'intervient ni comme entreprise générale de travaux, ni comme établissement financier.
+    </p>
+    <div class="footer-bottom">
+      <span>&copy; 2026 KOMA Expertise &mdash; Tous droits réservés.</span>
+      <div class="legal">
+        <a href="#">Mentions légales</a>
+        <a href="#">Confidentialité</a>
+        <a href="#">CGU</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/icons.js"></script>
+<script src="assets/js/koma.js"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="assets/js/tweaks-panel.jsx"></script>
+<script type="text/babel" src="assets/js/koma-tweaks.jsx"></script>
+</body>
+</html>
