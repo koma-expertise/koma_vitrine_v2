@@ -41,7 +41,7 @@
   --danger: #B3261E;
 
   /* Type */
-  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+ --font-heading: 'Schibsted Grotesk', 'DM Sans', sans-serif;
   --font-heading: 'Space Grotesk', 'DM Sans', sans-serif;
   --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   --h-ls: -0.015em;
