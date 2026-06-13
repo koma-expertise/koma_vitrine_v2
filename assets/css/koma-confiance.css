@@ -1,0 +1,85 @@
+/* ════════════════════════════════════════════════════════════════
+   KOMA EXPERTISE — Couche « Confiance » v2 (sobre)
+   Chargée après koma.css / koma-pages.css / koma-human.css.
+   Direction issue de l'analyse Stripe / Wise / Qonto / Procore /
+   Buildots / PlanRadar + NN/g :
+   — rythme clair/sombre à FONDS UNIS (pas de texture, pas de dégradé)
+   — preuve chiffrée visible avant le premier scroll
+   — stats traitées en éléments graphiques (gros chiffres turquoise)
+   — accent turquoise ≤ 10 % de la page, le reste respire
+   ──────────────────────────────────────────────────────────────── */
+
+/* ═══ 1. PREUVE AVANT LE SCROLL — chiffres clés dans le héro ═══ */
+.hero-home .hero-stats-strip { display: grid; }
+.hero-home .hero-stat .hs-value { font-size: clamp(26px, 2.8vw, 38px); }
+@media (max-width: 700px) {
+  .hero-home .hero-stats-strip { grid-template-columns: 1fr; gap: 16px; }
+}
+
+/* ═══ 2. RYTHME CLAIR/SOMBRE — « Méthode 4 étapes » en bande sombre ═══ */
+section[data-screen-label="Méthode 4 étapes"] {
+  background: var(--night);
+}
+section[data-screen-label="Méthode 4 étapes"] h2 { color: #fff; }
+section[data-screen-label="Méthode 4 étapes"] .lead { color: rgba(255,255,255,.62); }
+section[data-screen-label="Méthode 4 étapes"] .eyebrow { color: var(--teal); }
+section[data-screen-label="Méthode 4 étapes"] .step-card {
+  background: var(--night-soft);
+  border: 1px solid rgba(255,255,255,.08);
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+section[data-screen-label="Méthode 4 étapes"] .step-card:hover {
+  border-color: rgba(24,183,210,.4);
+  border-top-color: rgba(24,183,210,.4);
+  box-shadow: 0 18px 40px -22px rgba(0,0,0,.6);
+}
+section[data-screen-label="Méthode 4 étapes"] .step-card h3 { color: #fff; }
+section[data-screen-label="Méthode 4 étapes"] .step-card p { color: rgba(255,255,255,.58); }
+section[data-screen-label="Méthode 4 étapes"] .step-num {
+  color: var(--teal);
+  border-color: rgba(24,183,210,.35);
+  background: transparent;
+}
+section[data-screen-label="Méthode 4 étapes"] .step-deliverable { color: var(--mint); }
+section[data-screen-label="Méthode 4 étapes"] .step-deliverable::before { color: rgba(255,255,255,.35); }
+section[data-screen-label="Méthode 4 étapes"] .btn-ghost {
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255,255,255,.25);
+}
+section[data-screen-label="Méthode 4 étapes"] .btn-ghost:hover {
+  border-color: rgba(255,255,255,.5);
+  color: #fff;
+}
+
+/* ═══ 3. STATS EN BANDE SOMBRE — compteurs format display ═══ */
+.chiffres-humains {
+  background: var(--night);
+  border-radius: var(--r-xl);
+  padding: clamp(36px, 4.5vw, 56px) clamp(24px, 4vw, 48px);
+  gap: clamp(24px, 3vw, 48px);
+}
+.chiffre-humain {
+  background: transparent;
+  border: none;
+  padding: 0;
+  text-align: left;
+}
+.chiffre-humain::after { display: none; }
+.chiffre-humain .ch-num {
+  color: var(--teal);
+  font-size: clamp(40px, 4.6vw, 58px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+.chiffre-humain .ch-num em { color: var(--mint); }
+.chiffre-humain .ch-label {
+  color: rgba(246,248,249,.62);
+  font-size: 13px;
+  max-width: 24ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 880px) {
+  .chiffres-humains { grid-template-columns: 1fr 1fr; }
+}
